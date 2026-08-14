@@ -258,20 +258,6 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 
-### ⚠️ Important
-
-Never upload API keys to GitHub.
-
-Add this to `.gitignore`:
-
-```text
-.env
-venv/
-__pycache__/
-*.pyc
-.streamlit/secrets.toml
-```
-
 ---
 
 ## ⚙️ Installation
@@ -368,35 +354,6 @@ This project covers:
 * Generative AI
 * Streamlit Applications
 * Environment Variables
-
----
-
-## 🎯 Learning Objectives
-
-The main objectives are to understand how to:
-
-1. Build AI agents using Phidata.
-2. Connect LLMs with tools.
-3. Use web search with AI agents.
-4. Build specialized agents.
-5. Create multi-agent workflows.
-6. Integrate external APIs.
-7. Build AI-powered applications using Streamlit.
-8. Secure API keys using environment variables.
-
----
-
-## 🔮 Future Improvements
-
-* 👥 Advanced multi-agent systems
-* 🔗 RAG-based agents
-* 🧠 Agent memory
-* 📚 Vector database integration
-* 🛠️ Custom tools
-* 🌐 FastAPI backend
-* 📊 Agent monitoring
-* 🚀 Cloud deployment
-* 🔄 Automated agent workflows
 
 ---
 
